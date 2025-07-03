@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+/* .sidebar .navlink i{
+    font-weight: bold;
+} */
+.instagram-brand{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sidebar i {
+    color: #000;
+    text-shadow:
+    0.3px 0 black,
+    0 0.3px black,
+    -0.3px 0 black,
+    0 -0.3px black;
+}
+.sidebar .nav-link span {
+    color: #000;
+    font-weight: 450;
+}
+
+/* .sidebar .nav-link .active span {
+  font-weight: 600;
+} */
+i{
+    cursor: pointer;
+}
+.modal-icons{
+    border: 1px solid grey;
+}
