@@ -12,140 +12,140 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="content-wrapper">
-        <div class="row">
-            <!--             Sidebar              -->
-            <div class="col-lg-2 col-md-1 d-none d-md-block border-end position-fixed">
-                <nav class="sidebar d-flex flex-column fs-6">
-                    <a class="nav-link my-4 fs-3 d-lg-block d-none" href="#"><span class="instagram-brand">Instagram</span></a>
-                    <a class="nav-link my-2" href="#"><i class="bi bi-house-door ms-4 fs-4"></i><span class="d-none d-lg-inline ps-3">Inicio</span></a>
-                    <a class="nav-link my-2" href="#"><i class="bi bi-search ms-4 fs-4"></i><span class="d-none d-lg-inline ps-3" >Búsqueda</span></a>
-                    <a class="nav-link my-2" href="#"><i class="bi bi-compass ms-4 fs-4"></i><span class="d-none d-lg-inline ps-3">Explorar</span></a>
-                    <a class="nav-link my-2" href="#"><i class="bi bi-camera-reels ms-4 fs-4"></i><span class="d-none d-lg-inline ps-3">Reels</span></a>
-                    <a class="nav-link my-2" href="#"><i class="bi bi-send ms-4 fs-4"></i><span class="d-none d-lg-inline ps-3">Mensajes</span class="d-none d-lg-inline ps-3"></a>
-                    <a class="nav-link my-2" href="#"><i class="bi bi-suit-heart ms-4 fs-4"></i><span class="d-none d-lg-inline ps-3">Notificaciones</span></a>
-                    <a class="nav-link my-2" href="#"><i class="bi bi-plus-square ms-4 fs-4"></i><span class="d-none d-lg-inline ps-3">Crear</span></a>
-                    <a class="nav-link my-2" href="#">
-                        <img  src="assets/avatar.png" alt="Avatar" class="rounded-circle ms-4 fs-4" width="30px" height="30px">
-                        <span class="d-none d-lg-inline ps-3">Perfil</span>
-                    </a>
-                    <a class="nav-link my-2" href="#"><i class="bi bi-record ms-4 fs-4"></i><span class="d-none d-lg-inline ps-3">Meta AI</span></a>
-                    <a class="nav-link my-2" href="#"><i class="bi bi-threads ms-4 fs-4"></i><span class="d-none d-lg-inline ps-3">Threads</span></a>
-                    <a class="nav-link my-2" href="#"><i class="bi bi-list ms-4 fs-4"></i><span class="d-none d-lg-inline ps-3">Más</span></a>
-                </nav>
-            </div>
-            <div class="col-lg-10  offset-lg-2 col-md-11 offset-md-1">
-                <!--             Navbar              -->
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid justify-content-end">
-                        <!--             Button trigger modal              -->
-                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Create a new post
-                        </button>
+  
+    <div class="row">
+        <!--             Sidebar              -->
+        <div class="col-lg-2 col-md-1 d-none d-md-block border-end position-fixed">
+            <nav class="sidebar d-flex flex-column fs-6">
+                <a class="nav-link my-4 fs-3 d-lg-block d-none" href="#"><span class="instagram-brand">Instagram</span></a>
+                <a class="nav-link my-2" href="#"><i class="bi bi-house-door ms-4 fs-4"></i><span class="d-none d-lg-inline ps-4">Inicio</span></a>
+                <a class="nav-link my-2" href="#"><i class="bi bi-search ms-4 fs-4"></i><span class="d-none d-lg-inline ps-4" >Búsqueda</span></a>
+                <a class="nav-link my-2" href="#"><i class="bi bi-compass ms-4 fs-4"></i><span class="d-none d-lg-inline ps-4">Explorar</span></a>
+                <a class="nav-link my-2" href="#"><i class="bi bi-camera-reels ms-4 fs-4"></i><span class="d-none d-lg-inline ps-4">Reels</span></a>
+                <a class="nav-link my-2" href="#"><i class="bi bi-send ms-4 fs-4"></i><span class="d-none d-lg-inline ps-4">Mensajes</span></a>
+                <a class="nav-link my-2" href="#"><i class="bi bi-suit-heart ms-4 fs-4"></i><span class="d-none d-lg-inline ps-4">Notificaciones</span></a>
+                <a class="nav-link my-2" href="#"><i class="bi bi-plus-square ms-4 fs-4"></i><span class="d-none d-lg-inline ps-4">Crear</span></a>
+                <a class="nav-link my-2" href="#">
+                    <img  src="assets/avatar.png" alt="Avatar" class="rounded-circle ms-4 fs-4" width="25px" height="25px">
+                    <span class="d-none d-lg-inline ps-4">Perfil</span>
+                </a>
+                <a class="nav-link my-2" href="#"><i class="bi bi-record ms-4 fs-4"></i><span class="d-none d-lg-inline ps-4">Meta AI</span></a>
+                <a class="nav-link my-2" href="#"><i class="bi bi-threads ms-4 fs-4"></i><span class="d-none d-lg-inline ps-4">Threads</span></a>
+                <a class="nav-link my-2" href="#"><i class="bi bi-list ms-4 fs-4"></i><span class="d-none d-lg-inline ps-4">Más</span></a>
+            </nav>
+        </div>
+        <div class="col-lg-10  offset-lg-2 col-md-11 offset-md-1">
+            <!--             Navbar              -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid justify-content-end">
+                    <!--             Button trigger modal              -->
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Create a new post
+                    </button>
 
-                        <!--               Modal              -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" >Create a new post</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>Caption:</p>
-                                        <textarea  placeholder="Add the caption of your post modal-header" rows="1" style="width: 100%;"></textarea>
-                                        <div class="d-flex my-2">
-                                            <div class="modal-icons me-2">
-                                                <i class="bi bi-camera px-2 py-2"></i>
-                                            </div>
-                                            <div class="modal-icons me-2">
-                                                <i class="bi bi-geo-alt-fill px-2 py-2"></i>
-                                            </div>
+                    <!--               Modal              -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" >Create a new post</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Caption:</p>
+                                    <textarea  placeholder="Add the caption of your post here" rows="1" style="width: 100%;"></textarea>
+                                    <div class="d-flex my-2">
+                                        <div class="modal-icons me-2">
+                                            <i class="bi bi-camera px-2 py-2"></i>
+                                        </div>
+                                        <div class="modal-icons me-2">
+                                            <i class="bi bi-geo-alt-fill px-2 py-2"></i>
                                         </div>
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-success">Publish</button>
-                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success">Publish</button>
                                 </div>
                             </div>
                         </div>
-
-                        <!--               Dropdown                  -->
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="bi bi-gear-fill"></i>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a class="dropdown-item" href="#">Profile</a></li>
-                                <li><a class="dropdown-item" href="#">Accesibility</a></li>
-                                <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
-                            </ul>
-                        </div>
                     </div>
 
-                
-                </nav>
-                
-                <div class="container">
-      
-                    <!--                                nav - tab                        -->
-                    <div>
-                        <ul class="nav justify-content-center">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html"><i class="bi bi-grid-3x3"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index2.html"><i class="bi bi-square-fill"></i></a>
-                            </li>
+                    <!--               Dropdown                  -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-gear-fill"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
                         </ul>
                     </div>
+                </div>
 
-                    <!--                    Grid                  -->
-                    <div class="main-content container mt-5">
-                        <div class="row justify-content-center gx-1 gy-1">
-                            <div class="col-10 col-md-6 col-lg-3">
-                                <img class="img-fluid" src="assets/post 9.png">
-                            </div>
-                            <div class="col-10 col-md-6 col-lg-3">
-                                <img class="img-fluid" src="assets/post 1.png">
-                            </div>
-                            <div class="col-10 col-md-6 col-lg-3">
-                                <img class="img-fluid" src="assets/post 4.png">
-                            </div>
-                        </div>
-                        <div class="row justify-content-center mb-1 gx-1">
-                            <div class="col-10 col-md-6 col-lg-3">
-                                <img class="img-fluid" src="assets/post 2.png">
-                            </div>
-                            <div class="col-10 col-md-6 col-lg-3">
-                                <img class="img-fluid" src="assets/post 5.png">
-                            </div>
-                            <div class="col-10 col-md-6 col-lg-3">
-                                <img class="img-fluid" src="assets/post 3.png">
-                            </div>
-                        </div>
-                        <div class="row justify-content-center mb-1 gx-1">
-                            <div class="col-10 col-md-6 col-lg-3">
-                                <img class="img-fluid" src="assets/post 8.png">
-                            </div>
-                            <div class="col-10 col-md-6 col-lg-3">
-                                <img class="img-fluid" src="assets/post 7.png">
-                            </div>
-                            <div class="col-10 col-md-6 col-lg-3">
-                                <img class="img-fluid" src="assets/post 6.png">
-                            </div>
-                        </div>
+            
+            </nav>
+            
+            <div class="container">
+    
+                <!--                                nav - tab                        -->
+                <div>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="bi bi-grid-3x3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index2.html"><i class="bi bi-square-fill"></i></a>
+                        </li>
+                    </ul>
+                </div>
 
+                <!--                    Grid                  -->
+                <div class="main-content container mt-5">
+                    <div class="row justify-content-center mb-1 gx-1">
+                        <div class="col-10 col-md-6 col-lg-3">
+                            <img class="img-fluid" src="./assets/post 9.png">
+                        </div>
+                        <div class="col-10 col-md-6 col-lg-3">
+                            <img class="img-fluid" src="./assets/post 1.png">
+                        </div>
+                        <div class="col-10 col-md-6 col-lg-3">
+                            <img class="img-fluid" src="./assets/post 4.png">
+                        </div>
                     </div>
+                    <div class="row justify-content-center mb-1 gx-1">
+                        <div class="col-10 col-md-6 col-lg-3">
+                            <img class="img-fluid" src="./assets/post 2.png">
+                        </div>
+                        <div class="col-10 col-md-6 col-lg-3">
+                            <img class="img-fluid" src="./assets/post 5.png">
+                        </div>
+                        <div class="col-10 col-md-6 col-lg-3">
+                            <img class="img-fluid" src="./assets/post 3.png">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mb-1 gx-1">
+                        <div class="col-10 col-md-6 col-lg-3">
+                            <img class="img-fluid" src="./assets/post 8.png">
+                        </div>
+                        <div class="col-10 col-md-6 col-lg-3">
+                            <img class="img-fluid" src="./assets/post 7.png">
+                        </div>
+                        <div class="col-10 col-md-6 col-lg-3">
+                            <img class="img-fluid" src="./assets/post 6.png">
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-
-
     </div>
+
+
+
 
    
 
