@@ -2,9 +2,6 @@
     padding: 0;
     margin: 0;
 }
-.navbar {
-    background-color: transparent;/****/
-}
 
 .instagram-brand{
     font-family: "Lobster", sans-serif;
@@ -47,9 +44,7 @@ i{
 }
 .card-header{
     border: none;
-    padding: 8px 0;
-    background-color: transparent;
-    
+    padding: 8px 0; 
 }
 .card .card-header .rounded-circle{
     width: 40px;
@@ -65,4 +60,7 @@ i{
 }
 .text-muted{
     margin-bottom: 2px;
+}
+.hashtag {
+    color: blue;
 }
